@@ -7,6 +7,8 @@
 			public static const NAME:String = "PipingTheMachine";
 			
 			private var facade:ShellFacade = ShellFacade.getInstance(NAME);
+			
+			//testing git commit
 		]]>
 	</mx:Script>
 	<mx:HBox id="controlContainer" backgroundColor="#FFFFFF" width="100%" borderStyle="solid" borderThickness="0" cornerRadius="5" borderColor="#FFFFFF" verticalAlign="middle" paddingBottom="5" paddingLeft="5" paddingRight="5" paddingTop="5">
