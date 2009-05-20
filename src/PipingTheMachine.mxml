@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" width="450" height="500" layout="vertical" creationComplete="this.facade.startup(this);" backgroundGradientAlphas="[1.0, 1.0]" backgroundGradientColors="[#0F2D8D, #FFFFFF]" color="#000000" paddingBottom="10" paddingLeft="10" paddingRight="10" paddingTop="10" verticalGap="6" viewSourceURL="examples/pipemachine/srcview/index.html">
+	<mx:Script>
+		<![CDATA[
+			import com.joelhooks.pipingthemachine.shell.ShellFacade;
+			
+			public static const NAME:String = "PipingTheMachine";
+			
+			private var facade:ShellFacade = ShellFacade.getInstance(NAME);
+		]]>
+	</mx:Script>
+	<mx:HBox id="controlContainer" backgroundColor="#FFFFFF" width="100%" borderStyle="solid" borderThickness="0" cornerRadius="5" borderColor="#FFFFFF" verticalAlign="middle" paddingBottom="5" paddingLeft="5" paddingRight="5" paddingTop="5">
+		<mx:Image source="@Embed(source='assets/pmvc_icon.png')"/>
+		<mx:Label text="Piping the Machine" fontSize="18" fontWeight="bold" color="#000743"/>
+		<mx:HBox width="100%" height="100%" horizontalAlign="right" verticalAlign="middle">
+			<mx:Button label="New Doodad" id="doodadBtn"/>
+		</mx:HBox>
+		
+	</mx:HBox>
+	<mx:Tile id="tileContainer" backgroundColor="#F6F6F6" height="100%" width="100%" borderStyle="solid" borderThickness="0" cornerRadius="5" paddingBottom="10" paddingLeft="10" paddingRight="10" paddingTop="10"/>
+	<mx:VBox width="100%" verticalAlign="bottom">
+		<mx:VBox width="100%" id="loggerContainer"/>
+	</mx:VBox>
+</mx:Application>

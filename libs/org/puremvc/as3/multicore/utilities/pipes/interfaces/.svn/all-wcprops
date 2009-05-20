@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/Utility_AS3_MultiCore_Pipes/!svn/ver/74/trunk/src/org/puremvc/as3/multicore/utilities/pipes/interfaces
+END
+IPipeAware.as
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/Utility_AS3_MultiCore_Pipes/!svn/ver/74/trunk/src/org/puremvc/as3/multicore/utilities/pipes/interfaces/IPipeAware.as
+END
+IPipeFitting.as
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/Utility_AS3_MultiCore_Pipes/!svn/ver/67/trunk/src/org/puremvc/as3/multicore/utilities/pipes/interfaces/IPipeFitting.as
+END
+IPipeMessage.as
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/Utility_AS3_MultiCore_Pipes/!svn/ver/40/trunk/src/org/puremvc/as3/multicore/utilities/pipes/interfaces/IPipeMessage.as
+END
